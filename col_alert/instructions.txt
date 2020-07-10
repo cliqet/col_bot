@@ -1,0 +1,17 @@
+1. Download python
+2. Download DB Browser for SQLITE
+3. Signup for a Twilio account and get a number
+4. Open col.db using DB Browser
+5. Insert a record of your COL and Twilio credentials in the User table
+6. Insert records of stocks you wish to monitor. There are 2 sample stocks there which you may delete
+"""
+Stock code should be uppercase e.g. UPM
+Direction should be "up" or "down" without the quotes
+"up" means current price is below target price and you are waiting for the price to go up and hit the target price
+"down" means current price is above target price and you are waiting for the price to go down and hit the target price
+"""
+7. Run launch.bat if you are on Windows
+For MAC users:
+# go to col_alert directory in your terminal
+# type: source env/bin/activate
+# type: python main.py
